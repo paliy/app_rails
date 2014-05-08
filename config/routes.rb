@@ -1,6 +1,6 @@
 AppRails::Application.routes.draw do
   resources :microposts
-  root :to => "pages#home"
+  root :to => "static_pages#home"
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
